@@ -3,6 +3,7 @@ document.getElementById("btn1").onclick = func
 let arrSym = ["+", "-", "/", "*", "^", "%"];
 let operation;
 
+// Test
 function func() {
     operation = document.getElementById("inputOper").value
     for (let elem of arrSym) {
